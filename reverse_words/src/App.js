@@ -9,7 +9,7 @@ function App() {
     if(name){
       let array = name.split(' ')
       let wordReverse = array.map((word)=>
-          word.split('').reverse().join('')
+        word.split('').reverse().join('')
       )    
       let joinWords = wordReverse.join(' ')
       return joinWords;
